@@ -3,14 +3,14 @@ file a (a.php)
 <?php
 namespace a\b\c
 
-class Apple {
+public class Apple {
     get_info(){
         echo "this is a";
     }
 }
 
-PS: namespace 命名空间关键字
-在命名空间a\b\c下创建了一个包含输出“this is a”语句的get_info方法的Apple类;
+// PS: namespace 命名空间关键字
+// 在命名空间a\b\c下创建了一个包含输出“this is a”语句的get_info方法的Apple类;
 
 ------------------------------------
 file b (b.php)
@@ -25,8 +25,8 @@ class Apple {
     }
 }
 
-PS: namespace 命名空间关键字
-在命名空间d\e\f下创建了一个包含输出“this is b”语句的get_info方法的Apple类;
+// PS: namespace 命名空间关键字
+// 在命名空间d\e\f下创建了一个包含输出“this is b”语句的get_info方法的Apple类;
 
 ------------------------------------
 file c (c.php)
@@ -39,8 +39,8 @@ class Apple {
     }
 }
 
-PS: namespace 命名空间关键字
-在顶层命名空间下创建了一个包含输出“this is c”语句的get_info方法的Apple类;
+// PS: namespace 命名空间关键字
+// 在顶层命名空间下创建了一个包含输出“this is c”语句的get_info方法的Apple类;
 
 ------------------------------------
 file index (index.php)
