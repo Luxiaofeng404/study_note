@@ -1,5 +1,5 @@
 file a (a.php)
-
+REQUEST
 <?php
 namespace a\b\c
 
@@ -8,6 +8,7 @@ public class Apple {
         echo "this is a";
     }
 }
+
 
 // PS: namespace 命名空间关键字
 // 在命名空间a\b\c下创建了一个包含输出“this is a”语句的get_info方法的Apple类;
