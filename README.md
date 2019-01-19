@@ -30,21 +30,20 @@ document.cookie
 
 document.domain='baidu.com'; //设置同源策略
 
-<script src="http://www.baidu.com/">
-<img src="https://www.baidu.com/img/xinshouye_7c5789a51e2bfd441c7fe165691b31a1.png"/> 测试网速
-<iframe src="http://www.baidu.com/"></iframe>
+`<script src="http://www.baidu.com/">`
+`img src="https://www.baidu.com/img/xinshouye_7c5789a51e2bfd441c7fe165691b31a1.png"/>` 测试网速
+`<iframe src="http://www.baidu.com/"></iframe>`
 
 ### 5.怎么突破同源策略
 
 html标签：
-img iframe script(jsonp) link(background)
+img iframe script(jsonp) link(background);
 
 ### 6.实用div进行布局 不要用div进行无意义的包裹 span行内常见的元素;
 
 ### 7.尽量少写html
-
-* 减少浏览器渲染的时间；
-* 浪费整个文件大小；
+* (1)减少浏览器渲染的时间;
+* (2)浪费整个文件大小;
 
 一个html最次最次 三个元素;
 
