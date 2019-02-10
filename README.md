@@ -9,7 +9,7 @@ study_note
 ### 2.浏览器不同的域名不能访问对应的cookie 但是内部的表单没有限制
 
 ### 3.同源策略限制的对象（跨域）
-* （1）Cookie,LocalStorage(5M)和indexDB（5M），webSql（5M）无法获取；
+* （1）Cookie,LocalStorage(超过5M会出现性能问题)和indexDB（5M），webSql（5M）无法获取；
 * （2）Dom不能获取
 * （3）ajax请求不能发送
 
