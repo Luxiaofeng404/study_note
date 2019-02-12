@@ -1,7 +1,3 @@
-study_note
-
-study_note
-
 1.什么是同源
 
 相同协议 相同域名 相同端口
@@ -17,13 +13,13 @@ study_note
 
 test.xxx.com/a.html
 
-<script> document.domain = 'example.com'; document.cookie = "test1=hello"; </script>
+`<script> document.domain = 'example.com'; document.cookie = "test1=hello"; </script>`
 test2.xxx.com/b.html
 
-<script> document.cookie </script>
+`<script> document.cookie </script>`
 document.domain='baidu.com'; //设置同源策略
 
-<script src="http://www.baidu.com/"> img src="https://www.baidu.com/img/xinshouye_7c5789a51e2bfd441c7fe165691b31a1.png"/> 测试网速 <iframe src="http://www.baidu.com/"></iframe>
+`<script src="http://www.baidu.com/"> img src="https://www.baidu.com/img/xinshouye_7c5789a51e2bfd441c7fe165691b31a1.png"/> 测试网速 <iframe src="http://www.baidu.com/"></iframe>`
 
 5.怎么突破同源策略
 
