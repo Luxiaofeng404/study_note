@@ -1,5 +1,4 @@
 # study_note
-study_note
 
 ### 1.什么是同源
 相同协议
