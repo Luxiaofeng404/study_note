@@ -26,11 +26,15 @@
 
 匿名函数
 
-(function(){
-​	var a;
-​	alert(a);
-​	a = 30;
-})(); //输出undefined，变量提升；
+`(function(){`
+
+` var a;`
+
+` alert(a);`
+
+` a = 30;`
+
+`)();` /undefined，变量提升；
 
 undefind:声明未赋值
 
