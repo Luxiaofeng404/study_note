@@ -8,11 +8,11 @@
 
 #### 3.同源策略限制的对象（跨域）
 
-* 3.1 Cookie,LocalStorage(超过5M会出现性能问题)和indexDB（5M），webSql（5M）无法获取；
+* 3.1 Cookie,LocalStorage(超过5M会出现性能问题)和indexDB（5M），webSql（5M）无法获取
 
-* 3.2 Dom不能获取；
+* 3.2 Dom不能获取
 
-* 3.3 ajax请求不能发送；
+* 3.3 ajax请求不能发送
 
 #### 4.如何设置同源策略（host）
 
@@ -40,15 +40,15 @@ document.domain='baidu.com'; //设置同源策略
 html标签：
 img iframe script(jsonp) link(background);
 
-#### 6.实用div进行布局 不要用div进行无意义的包裹 span行内常见的元素；
+#### 6.实用div进行布局 不要用div进行无意义的包裹 span行内常见的元素
 
 #### 7.尽量少写html
 
-* 7.1 减少浏览器渲染的时间；
+* 7.1 减少浏览器渲染的时间
 
-* 7.2 浪费整个文件大小；
+* 7.2 浪费整个文件大小
 
-一个html最次最次 三个元素;
+一个html最次最次 三个元素
 
 #### 8.高阶WebSocket postMessage(ifarame image)
 
