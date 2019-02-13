@@ -39,13 +39,11 @@ HTML标签：img iframe script(jsonp) link(background);
 
 #### 6. 实用div进行布局 不要用div进行无意义的包裹 span行内常见的元素
 
-#### 7. 尽量少写html
+#### 7. 尽量少写html(一个html最次最次顶三个元素)
 
 * 7.1 减少浏览器渲染的时间
 
 * 7.2 浪费整个文件大小
-
-一个html最次最次 三个元素
 
 #### 8. 高阶WebSocket postMessage(ifarame image)
 
