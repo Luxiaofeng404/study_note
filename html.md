@@ -35,9 +35,7 @@
 
 #### 5. 怎么突破同源策略
 
-html标签：
-
-img iframe script(jsonp) link(background);
+HTML标签：img iframe script(jsonp) link(background);
 
 #### 6. 实用div进行布局 不要用div进行无意义的包裹 span行内常见的元素
 
