@@ -39,7 +39,7 @@
 
 
 ### 5.3 this指针的使用
-**谁调他this就指谁**
+*谁调他this就指谁*
 
     this.m = 100;
     function test(){
@@ -63,16 +63,13 @@
 
 ### 5.4 JavaScript作用域和闭包
 
-变量未声明未赋值 Uncaught ReferenceError: i is not defined
+* 变量未声明未赋值 Uncaught ReferenceError: i is not defined
 
+* 变量声明未赋值 undefined
 
-变量声明未赋值 undefined
+* js是函数级别作用域 在内部的变量 内部能访问 外部不能访问内部的 内部能访问外部的
 
-
-js是函数级别作用域 在内部的变量 内部能访问 外部不能访问内部的 内部能访问外部的
-
-
-闭包：他就是拿到本不该属于他的东西
+* 闭包：他就是拿到本不该属于他的东西
 
     var j;
     test();
