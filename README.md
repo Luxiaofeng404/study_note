@@ -6,4 +6,4 @@
 * [Linux基础入门](Linux-Basic-introduction.md)
 
 ### 基础录播课
-* [EcmaScript5.1新增语法](EcmaScript-5.1-new.md)
+* [EcmaScript5.1新增语法](EcmaScript-5.1-new-grammar.md)
