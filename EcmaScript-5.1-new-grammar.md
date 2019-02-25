@@ -39,27 +39,28 @@
 
 
 ### 5.3 this指针的使用
-*谁调他this就指谁*
 
-    this.m = 100;
-    function test(){
-      alert(this.m);
-      }
-    window.test();
-    
-    this.m = 1000;
-    var obj = {
-      m: 100,
-      test: function(){
-        alert(this.m);
-        return function(){
+* 谁调他this就指谁
+
+        this.m = 100;
+        function test(){
           alert(this.m);
+          }
+        window.test();
+
+        this.m = 1000;
+        var obj = {
+          m: 100,
+          test: function(){
+            alert(this.m);
+            return function(){
+              alert(this.m);
+            }
+          }
         }
-      }
-    }
-    
-    var t = obj.test();
-    window.t;
+
+        var t = obj.test();
+        window.t;
 
 ### 5.4 JavaScript作用域和闭包
 
