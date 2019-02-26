@@ -65,13 +65,10 @@
 
 ### 5.4 JavaScript作用域和闭包
 
-* 变量未声明未赋值 Uncaught ReferenceError: i is not defined
-
-* 变量声明未赋值 undefined
-
-* js是函数级别作用域 在内部的变量 内部能访问 外部不能访问内部的 内部能访问外部的
-
-* 闭包：他就是拿到本不该属于他的东西
+    变量未声明未赋值 Uncaught ReferenceError: i is not defined
+    变量声明未赋值 undefined
+    js是函数级别作用域 在内部的变量 内部能访问 外部不能访问内部的 内部能访问外部的
+    闭包：他就是拿到本不该属于他的东西
 
     var j;
     test();
@@ -83,7 +80,7 @@
         var t = 100;
       }
       console.log(j);
-      }
+    }
       
     var j = 100;
     function test(){
