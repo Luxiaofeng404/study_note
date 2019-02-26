@@ -15,13 +15,13 @@
 ### 4. 如何设置同源策略（host）
 
 ```javascript
-test.xxx.com/a.html
+// test.xxx.com/a.html
 <script>
   document.domain = 'example.com';
   document.cookie = "test1=hello";
 </script>
 
-test2.xxx.com/b.html
+// test2.xxx.com/b.html
 <script>
   document.cookie
 </script>
