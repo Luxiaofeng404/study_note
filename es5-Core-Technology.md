@@ -35,12 +35,13 @@
 
 匿名函数
 
-      (function(){
-         var a;
-         alert(a);
-         a = 30;
-      )(); //undefined，变量提升；
-
+```javascript
+(function(){
+   var a;
+   alert(a);
+   a = 30;
+)(); //undefined，变量提升；
+```
 undefind:声明未赋值
 
 is not defind: 未声明
