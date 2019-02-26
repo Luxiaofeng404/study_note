@@ -12,7 +12,7 @@ Array.map //处理数组中的所有的只并返回一个新的数组
 Array.filter
 Array.reduce
 Array.reduceRight
-typeArray
+Array.typeArray
 
 Array.isArray(“No U”); // false
 Array.isArray([“No”, “U”]); // true
@@ -37,8 +37,10 @@ var locateMaru = locate.bind(kitty);
 // locate.apply(kitty);
 // locate.call(kitty);
 locateMaru();
-// 在这个例子中，我们将Maru对象的上下文应用中location函数中。因为location是个全局对象的属性，其this值就是全局对象（window）。
-// 值这种情况下，我们向上寻找cat，并不是location对象，以为我们可以通过绑定的总是kitty的this值创建一个新的方法locateMaru。
+// 在这个例子中，我们将Maru对象的上下文应用中location函数中。
+// 因为location是个全局对象的属性，其this值就是全局对象（window）。
+// 值这种情况下，我们向上寻找cat，并不是location对象，
+// 以为我们可以通过绑定的总是kitty的this值创建一个新的方法locateMaru。
 ```
 
 ### 5.3 this指针的使用
