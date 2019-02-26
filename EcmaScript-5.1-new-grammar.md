@@ -126,5 +126,5 @@ test(obj);
 console.log(‘outer’, obj);
 
 // 按引用传递: js对象 object array
-// 按值引用: string number  boolean
+// 按值引用: string number boolean
  ```
