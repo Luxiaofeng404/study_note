@@ -1,3 +1,52 @@
+## EcmaScript5.1 新增语法【上】
+
+### 4.1 简介
+
+添加了严格模式（use strict）
+
+### 4.2 浏览器支持
+
+```javascript
+五大浏览器全部支持EcmaScript5.1
+Opera 11.6，Internet Explorer 9+，Firefox 4，safari 5.1，Chrome 13
+IE 9 不支持严格模式
+```
+
+### 4.3 严格模式(更可靠，更安全)
+
+* 未声明的变量赋值抛出一个 ReferenceError，而不是创建一个全局变量
+* 不止一次对对象字面量分配相同的属性回抛出 SyntaxError（未实现）
+* 使用with语句抛出 SyntaxError
+
+```javascript
+“use strict”;
+
+function test(){
+	“use strict”;
+	i = 1;
+	alert(1);	
+} 
+```
+
+### 4.4 JSON格式
+
+```javascript
+// ES5提供一个JSON对象，用来序列化（JSON.stringify）和反序列化（JSON.parse）对象为JSON格式。
+JSON.parse(text, [, reviver]);
+// 接收文本（JSON格式）然后转换成一个ECMAScript值。
+JSON.stringify(value [, replacer [, space]]);
+// 接收一个ECMAScript值然后转换成JSON格式字符串。
+```
+
+### 4.5 添加对象
+
+```javascript
+Object.is
+Object.keys
+Object.create
+Object.observe
+```
+
 ## EcmaScript5.1 【下】
 
 ### 5.1 额外的数组
