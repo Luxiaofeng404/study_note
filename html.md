@@ -26,7 +26,7 @@
   document.cookie
 </script>
 
-document.domain='baidu.com'; //设置同源策略
+document.domain = 'baidu.com'; //设置同源策略
 
 <script src="http://www.baidu.com/">
 img src="https://www.baidu.com/img/xinshouye_7c5789a51e2bfd441c7fe165691b31a1.png"/> //测试网速
