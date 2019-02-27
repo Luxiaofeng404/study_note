@@ -7,3 +7,4 @@
 
 ### 基础录播课
 * [EcmaScript5.1新增语法](EcmaScript-5.1-new-grammar.md)
+* [PHP与MySQL开发入门](PHP-MySQL-Development-Getting.md)
