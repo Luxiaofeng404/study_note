@@ -41,3 +41,54 @@ windows环境下模拟Linux系统的工具
 ### 3.6 Linux的安装与基本命令
 
 ### 3.7 web服务器基础原理和概念
+
+***
+
+## 【预读班**新**】操作系统与后端语言核心知识
+
+### 远程登录Linux
+
+* Windows环境下的工具
+
+1. putty(免费开源的)
+2. xshell(商业收费)
+3. 在cmder终端环境下使用ssh命令
+
+* Linux和MacOS环境下
+
+1. ssh
+
+### 重要的常用Linux命令
+
+* 行编辑器 vi/vim
+
+1. a i 进入插入模式
+2. Esc命令模式
+3. :wq 保存并退出
+4. /open 检索open字符 n向下找 shift+n向上找
+
+* 服务管理命令 systemctl
+* 网络管理 ifconfig、ip命令、router
+* 命令行下载命令 curl、wget
+1. wget www.baidu.com 下载百度首页
+2. curl www.baidu.com 下载百度首页的文本
+* 怎样查看Linux命令的帮助
+* 在终端下不小心 Ctrl+s了怎么办？
+
+### Linux终端快捷键
+
+1. Ctrl+C 结束正在运行的程序 【ping、telnet等】
+2. Ctrl+S 暂停屏幕输出
+3. Ctrl+Q 恢复屏幕输出
+4. Ctrl+A 光标移动到行首
+5. Ctrl+E 光标移动到行尾
+6. Ctrl+L 清屏，等同于clear
+
+### 理解面向对象
+
+* 面向对象的三大特征 
+1. 封装
+2. 继承
+3. 多态
+* 面向过程是一件事“该怎么做”，面向对象是一件事“该谁来做”，然后那个“谁”就是对象，他要怎么做是他自己的事，反正最后一群对象合力能把事做好就行了。
+
