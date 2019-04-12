@@ -17,6 +17,8 @@
   rm 删除文件和目录
 
   mkdir 创建目录
+  
+  chomd -R 777 basic 循环修改目录的权限
 
 ### 3.4 windows命令行
 
