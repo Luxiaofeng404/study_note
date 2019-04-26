@@ -34,7 +34,10 @@ step3：git push
     git branch
     // 输入git branch -a，查看所有的分支情况
     git branch -a
-    // 输入git add .，把所有文件添加到仓库，git add src/components/login/login.vue，将login.vue文件添加到仓库中
+    // 输入git add .，把所有文件添加到仓库
+    git add .
+    // git add src/components/login/login.vue，将login.vue文件添加到仓库中
+    git add src/components/login/login.vue
     // 输入git commit -m '修改login.vue文件'，git commit，将文件提交到仓库，-m 后面跟上提交的说明
     git commit -m '修改login.vue文件'
     ```
