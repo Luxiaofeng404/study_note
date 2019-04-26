@@ -50,7 +50,7 @@ step3：git push
 
     `git push`
 
-6. 在react中使用Ant Design Pro时，commit时经常因为eslint检查不过关，导致commit提交失败。通过跳过eslint的代码检查，或者在项目里新建个.eslintignore文件，用来忽略检测的文件夹
+6. 在react中使用Ant Design Pro时，commit时经常因为eslint检查不过关，导致commit提交失败。通过跳过eslint的代码检查，或者在项目里新建个.eslintignore文件，用来忽略检测的文件夹。
 
     `git commit --no-verify -m "commit"`
 
