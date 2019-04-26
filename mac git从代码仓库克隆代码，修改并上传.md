@@ -54,7 +54,7 @@ step3：git push
 
     `git commit --no-verify -m "commit"`
 
-## 在把本地新建代码添加到指定代码仓库时的操作：
+# 在把本地新建代码添加到指定代码仓库时的操作
 
 1. 初始化版本库
 
