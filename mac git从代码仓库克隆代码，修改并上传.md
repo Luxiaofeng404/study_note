@@ -1,5 +1,12 @@
 # mac git从代码仓库克隆代码，修改并上传
 
+```javascript
+提交步骤
+step1：git add .
+step2：git commit -m 'key'
+step3：git push
+```
+
 1. 添加本地秘钥到代码仓库中
 
 `open ~/ .ssh`　　
@@ -40,15 +47,11 @@ git commit -m '修改login.vue文件'
 
     `git push`
 
-6. 在react中使用Ant Design Pro时，commit时经常因为eslint检查不过关，导致commit提交失败。
+6. 在react中使用Ant Design Pro时，commit时经常因为eslint检查不过关，导致commit提交失败。通过跳过eslint的代码检查，或者在项目里新建个.eslintignore文件，用来忽略检测的文件夹
 
-通过跳过eslint的代码检查
+    `git commit --no-verify -m "commit"`
 
-或者在项目里新建个.eslintignore文件，用来忽略检测的文件夹
-
-git commit --no-verify -m "commit"
-
-在把本地新建代码添加到指定代码仓库时的操作：
+## 在把本地新建代码添加到指定代码仓库时的操作：
 
 1. 初始化版本库
 
