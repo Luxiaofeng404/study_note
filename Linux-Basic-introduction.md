@@ -76,6 +76,7 @@ windows环境下模拟Linux系统的工具
 2. curl www.baidu.com 下载百度首页的文本
 * 怎样查看Linux命令的帮助
 * 在终端下不小心 Ctrl+s了怎么办？
+* 通过‘rpm -ql nginx’ 指令查看nginx都安装到了哪些目录
 
 ### Linux终端快捷键
 
