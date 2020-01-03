@@ -1,3 +1,9 @@
+<input type="file" accept="image/*" />   
+
+accept表示可以上传文件类型，image表示图片，*表示所有支持的格式。<abbr title="World Wide Web Consortium">VUE不好用</abbr>.
+
+accept可以指定如下信息：
+
 | 项目     | 价格   |  数量  |
 | :-----: | :----: | :----: |
 | *.3gpp | audio/3gpp, video/3gpp | 3GPP Audio/Video |
