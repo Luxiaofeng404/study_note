@@ -1,54 +1,38 @@
 # Linux基础入门
 
-### 3.1 Linux操作系统介绍
+## 3.1 Linux操作系统介绍
 
-### 3.2 Linux和虚拟机基本安装步骤
+## 3.2 Linux和虚拟机基本安装步骤
 
-### 3.3 Linux基本命令
+## 3.3 Linux基本命令
+  1. ls 查看目录
+  2. cd 切换目录
+  3. cp 复制文件
+  4. pwd 定位当前目录位置
+  5. rm 删除文件和目录
+  6. mkdir 创建目录
+  7. chomd -R 777 basic 循环修改目录的权限
+  8. scp -r dir/ root@39.105.218.165:/home/wwwroot/tsenglishdev-back 前端代码上传服务器
 
-  ls 查看目录
+## 3.4 windows命令行
+1. dir 查看当前目录下的文件和目录
+2. cd 切换目录
+3. md 创建目录
+4. cd.. 返回上一级目录
+5. copy 复制文件
+6. del 删除文件
+7. rename 重命名文件
 
-  cd 切换目录
+## 3.5 Cygwin安装与使用
+1. windows环境下模拟Linux系统的工具
 
-  cp 复制文件
+## 3.6 Linux的安装与基本命令
 
-  pwd 定位当前目录位置
+## 3.7 web服务器基础原理和概念
 
-  rm 删除文件和目录
+# 【预读班**新**】操作系统与后端语言核心知识
 
-  mkdir 创建目录
-  
-  chomd -R 777 basic 循环修改目录的权限
-
-### 3.4 windows命令行
-
-dir 查看当前目录下的文件和目录
-
-cd 切换目录
-
-md 创建目录
-
-cd.. 返回上一级目录
-
-copy 复制文件
-
-del 删除文件
-
-rename 重命名文件
-
-### 3.5 Cygwin安装与使用
-
-windows环境下模拟Linux系统的工具
-
-### 3.6 Linux的安装与基本命令
-
-### 3.7 web服务器基础原理和概念
-
-***
-
-## 【预读班**新**】操作系统与后端语言核心知识
-
-### 远程登录Linux
+## 远程登录Linux
 
 * Windows环境下的工具
 
@@ -60,7 +44,7 @@ windows环境下模拟Linux系统的工具
 
 1. ssh
 
-### 重要的常用Linux命令
+## 重要的常用Linux命令
 
 * 行编辑器 vi/vim
 
@@ -78,7 +62,7 @@ windows环境下模拟Linux系统的工具
 * 在终端下不小心 Ctrl+s了怎么办？
 * 通过‘rpm -ql nginx’ 指令查看nginx都安装到了哪些目录
 
-### Linux终端快捷键
+## Linux终端快捷键
 
 1. Ctrl+C 结束正在运行的程序 【ping、telnet等】
 2. Ctrl+S 暂停屏幕输出
@@ -87,7 +71,7 @@ windows环境下模拟Linux系统的工具
 5. Ctrl+E 光标移动到行尾
 6. Ctrl+L 清屏，等同于clear
 
-### 理解面向对象
+## 理解面向对象
 
 * 面向对象的三大特征 
 1. 封装
