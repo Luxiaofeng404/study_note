@@ -4,7 +4,7 @@ accept表示可以上传文件类型，image表示图片，*表示所有支持�
 
 accept可以指定如下信息：
 
-| 项目     | 价格   |  数量  |
+| 后缀     | accept   |  类型  |
 | :-----: | :----: | :----: |
 | *.3gpp | audio/3gpp, video/3gpp | 3GPP Audio/Video |
 | *.doc | application/msword | MS Word Document |
