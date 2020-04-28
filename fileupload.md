@@ -12,6 +12,7 @@ accept可以指定如下信息：
 | *.mp4 | audio/mp4, video/mp4 | MPEG-4 Audio/Video |
 | *.pdf | application/pdf | Portable Document Format |
 | *.xls	| application/vnd.ms-excel | MS Excel Spreadsheet |
+| *.xlsx	| application/vnd.openxmlformats-officedocument.spreadsheetml.sheet | MS Excel Spreadsheet |
 | *.ppt | application/vnd.ms-powerpoint | MS PowerPoint Presentation |
 | *.jpg | image/jpeg | JPEG |
 | *.png | image/png | Portable Network Graphics |
