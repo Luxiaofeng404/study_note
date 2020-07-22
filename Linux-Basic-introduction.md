@@ -13,6 +13,9 @@
   6. mkdir 创建目录
   7. chomd -R 777 basic 循环修改目录的权限
   8. scp -r dir/ root@39.105.218.165:/home/wwwroot/tsenglishdev-back 前端代码上传服务器
+  9. useradd luxf 添加用户
+  10. passwd luxf 修改密码
+  11. su root 切换登录用户
 
 ## 3.4 windows命令行
 1. dir 查看当前目录下的文件和目录
