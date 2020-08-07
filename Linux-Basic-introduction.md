@@ -2,6 +2,13 @@
 
 ## 3.1 Linux操作系统介绍
 
+* centos7操作ssh/sshd服务 (/etc/ssh/sshd.conf)
+
+1. 查看状态：systemctl status sshd.service
+2. 启动服务：systemctl start sshd.service
+3. 重启服务：systemctl restart sshd.service
+4. 开机自启：systemctl enable sshd.service
+
 ## 3.2 Linux和虚拟机基本安装步骤
 
 ## 3.3 Linux基本命令
